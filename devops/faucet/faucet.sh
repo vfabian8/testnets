@@ -13,6 +13,6 @@ PREFIX=${PREFIX:-coral}
 
 docker build -t cosmwasm/faucet:manual .
 
-docker run --rm cosmwasm/faucet:manual cosmwasm-faucet version
+docker run --rm cosmwasm/faucet:manual cosmos-faucet version
 
-docker run -e FAUCET_ADDRESS_PREFIX=coral --rm cosmwasm/faucet:manual cosmwasm-faucet generate
+docker run -e FAUCET_ADDRESS_PREFIX=$PREFIX --rm cosmwasm/faucet:manual cosmos-faucet generate
