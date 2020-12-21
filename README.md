@@ -7,10 +7,11 @@ Information on all public CosmWasm testnets. Check
 
 * [Gaia Flex](./gaia-flex)
 * [Heldernet](./heldernet)
+* [Musselnet](./musselnet) 24 October 2020
 
 ### Upcoming
 
-* [Musselnet](./musselnet) 24 October 2020
+* Oysternet
 
 ### Past
 
